@@ -72,7 +72,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" remote="derp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="derp" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="derp" />
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="derp" >
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="derp" revision="11-hotdog" >
     <!-- add guard for AOSP hardware/qcom dir > -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- for AOSP sdm845, we override os_pickup.mk -->
@@ -166,7 +166,7 @@
   <project path="tools/metalava" name="tools_metalava" remote="derp" />
 
   <!-- Vendor -->
-  <project path="vendor/derp" name="vendor_derp" remote="derp" />
+  <project path="vendor/derp" name="vendor_derp" remote="derp" revision="11-hotdog" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="derp" />
   <project path="vendor/gms" name="vendor_gms" remote="derp-gitlab" revision="11" clone-depth="1" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="derp" />
