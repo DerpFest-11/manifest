@@ -54,7 +54,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="derp" />
-  <project path="frameworks/base" name="frameworks_base" remote="derp" />
+  <project path="frameworks/base" name="frameworks_base" remote="derp" revision="11-oos" />
   <project path="frameworks/native" name="frameworks_native" remote="derp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="derp" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="derp" />
@@ -124,7 +124,7 @@
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="derp" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="derp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="derp" />
-  <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" />
+  <project path="packages/apps/Settings/DerpQuest" name="packages_apps_DerpQuest" remote="derp" revision="11-oos" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="derp" />
   <project path="packages/apps/SimIcons" name="simrat39/icon-pack" remote="github" revision="master" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="derp" />
